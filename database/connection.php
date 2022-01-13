@@ -3,9 +3,9 @@
     //$dbConfig = config::getInstance()->get('db');
     function connect(){
         $db = new PDO(
-            "mysql:host=sql103.epizy.com; dbname=epiz_30799275_pdo_bookstore",
-            "epiz_30799275",
-            "9dOnLSBYN2o4A"
+            "mysql:host=sql6.freesqldatabase.com; dbname=sql6465431",
+            "sql6465431",
+            "SihwcRyWHa"
         );
         
         $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
